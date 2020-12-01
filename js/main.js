@@ -22,15 +22,12 @@
     $(window).on("load", function () {    
 
         //loader and Intro Animations
-        $('#page-loader').delay(1000).fadeOut(400, function(){});    
+        $('#page-loader').delay(100).fadeOut(400, function(){});    
 
         // Calling functions here
         adjustViewport();
         AdjustingBannerSpacing();
-            var audio = document.getElementById("audio");
-            audio.src = URL.createObjectURL("img/flute.mp3");
-            audio.load();
-            audio.play();
+           
 
     });
 
