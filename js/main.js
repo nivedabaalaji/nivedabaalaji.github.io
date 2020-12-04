@@ -22,7 +22,7 @@
     $(window).on("load", function () {    
 
         //loader and Intro Animations
-        $('#page-loader').delay(100).fadeOut(400, function(){});    
+        $('#page-loader').delay(10).fadeOut(300, function(){});    
 
         // Calling functions here
         adjustViewport();
