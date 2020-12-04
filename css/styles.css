@@ -3790,3 +3790,15 @@ body .simple-lightbox .sl-navigation {
 .ie8 #page-loader {
   display: none;
 }
+@media screen and (max-width:700px){
+
+#img1{
+width:  80%;
+}
+#img2{
+width:  50%;
+}
+#img3{
+width:  80%;
+}
+}
