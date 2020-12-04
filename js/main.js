@@ -15,8 +15,7 @@
         var BannerPadding = windowHeight - HeaderHeight
         $(".main-carousel .slide-inner").css("padding-top", HeaderHeight);
     }
-
-   $('.loading-wrapper').css({'visibility': 'visible'}).animate({opacity: '1'}, 600);
+    $('.loading-wrapper').css({'visibility': 'visible'}).animate({opacity: '1'}, 600);
        
     //Begin - Window Load
     $(window).on("load", function () {    
