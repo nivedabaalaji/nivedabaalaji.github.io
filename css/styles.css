@@ -1365,13 +1365,12 @@ a:focus {
   line-height: 1;
   margin-top: 12px;
   font-weight: regular;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   word-spacing: -3px;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  font-family: 'Sweet Hipster', sans-serif;
-  font-family: 'Sweet Hipster', cursive;
+
   color: #ffffff;
 }
 @media (min-width:992px) {
