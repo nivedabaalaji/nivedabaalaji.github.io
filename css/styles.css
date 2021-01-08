@@ -1020,9 +1020,9 @@ a:focus {
   color: #ffffff;
 }
 .title-section {
-  font-family: 'Lato', sans-serif;
+  font-family: algerian;
   font-weight: black;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
@@ -1365,7 +1365,7 @@ a:focus {
   line-height: 1;
   margin-top: 12px;
   font-weight: regular;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   word-spacing: -3px;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
