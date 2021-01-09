@@ -1375,7 +1375,7 @@ a:focus {
 }
 @media (min-width:992px) {
   #masthead .header-logo .site-title {
-    font-size: 46px;
+    font-size: 40px;
   }
 }
 #masthead .header-logo .site-title a {
