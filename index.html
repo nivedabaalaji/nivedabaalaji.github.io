@@ -178,11 +178,11 @@
 
 <h3 style="text-align: center;color:#d75a4a;" class="fonte">" A Successfull Marriage Requires Falling In Love Many Times, Always With The Same Person."<br><br>" True Love Stands By Each Other’s Side On Good Days & Stands Closer On Bad Days."</h3><br>
 <h1 style="text-align: center;color:black;font-size: 40px;">About Us</h1>
-<audio src="img/beat.mpeg" id="beat"></audio>
-    <section id="our-story" onmouseover="beat();" style="background-image: url('img/fall.gif');background-color: white;" >
+<audio src="img/beat.mpeg" id="beats"></audio>
+    <section id="our-story" onmouseover="beats();" style="background-image: url('img/fall.gif');background-color: white;" >
         <script type="text/javascript">
-            function beat(){
-                var sound=document.getElementById("beat");
+            function beats(){
+                var sound=document.getElementById("beats");
                 sound.play();
 
             }
@@ -244,7 +244,15 @@
 
 
 
-  <div class="section section-testimonials-wrapper" style="background-color: black" onmouseover="beat();">
+  <div class="section section-testimonials-wrapper" style="background-color: black" onmouseover="stop();">
+    <script type="text/javascript">
+        function stop(){
+           var sound=document.getElementById("beat");
+           sound.pause();
+           var sounds=document.getElementById("beats");
+           sounds.pause();
+        }
+    </script>
    <center><img src="img/kh.gif"></center>
 
                 <div class="bearr-countdown-wrapper" style="background-image: url('img/qqq.gif');background-position: center; background-repeat: no-repeat;"><br>
@@ -270,7 +278,16 @@
 
 
         <!-- section Events-->
-        <div style="background-image: url('1.gif');">
+       <audio src="img/bgm.mpeg" id="beat"></audio>
+        <div style="background-image: url('1.gif');" onmouseover="beat();">
+            <script type="text/javascript">
+            function beat(){
+                var sound=document.getElementById("beat");
+                sound.play();
+
+            }
+        </script>
+
 <div class="section with-dark-bg section-events" id="special-events" style="background-image: url('img/pink.jpg'); opacity:0.9">
 
             <div class="container">
